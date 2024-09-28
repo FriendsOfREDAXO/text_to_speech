@@ -1,6 +1,7 @@
 # Text to Speech für REDAXO-Projekte
 
 Kleines Widget und Fragment-Vorlage zum Vorlesen von Inhalten auf einer Webseite.
+Es nutzt die im Browser zur Verfügung stehenden Stimmen. 
 
 ## Features
 
