@@ -1,9 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    margin-top: 80px;
-}
-.widget {
+.tts-player {
     position: fixed;
     top: 20px;
     right: 20px;
@@ -16,13 +11,13 @@ body {
     align-items: center;
     z-index: 1000;
 }
-.widget select {
+.tts-player select {
     margin-right: 10px;
     background: #333; 
     color: #fff;
     
 }
-.widget button {
+.tts-player button {
     background: none;
     border: none;
     margin: 0 5px;
@@ -30,24 +25,6 @@ body {
     cursor: pointer;
     color: #fff;
 }
-.highlight-glow {
-    animation: glow 8s infinite;
-    border-radius: 4px; 
+.highlight {
+    box-shadow: #333;
 }
-@keyframes glow {
-0% {
-box-shadow: 0 0 1px red, 0 0 10px red;
-}
-33% {
-box-shadow: 0 0 1px blue, 0 0 10px blue;
-}
-66% {
-box-shadow: 0 0 1px blue, 0 0 10px green;
-}
-100% {
-box-shadow: 0 0 1px gren, 0 0 10px red;
-}
-}
-
-#text-container { display: block; margin-left: auto; margin-right: auto; width: 50vw;}
-#text-container div { padding: 20px; background: transparent;}

@@ -2,10 +2,10 @@ let synth = window.speechSynthesis;
 let utterance = null;
 let currentSentenceIndex = 0;
 let sentences = [];
-let textElements = document.querySelectorAll('#text-container > div');
-let voiceSelect = document.getElementById('voiceSelect');
-let rateSelect = document.getElementById('rateSelect');
-let togglePlayPauseButton = document.getElementById('togglePlayPause');
+let textElements = document.querySelectorAll('main');
+let voiceSelect = document.getElementById('tts-player-voice');
+let rateSelect = document.getElementById('tts-player-rate');
+let togglePlayPauseButton = document.getElementById('tts-play');
 let selectedVoice = null;
 let isPlaying = false;
 
@@ -65,15 +65,15 @@ function sprechen() {
 function highlightSentence(index) {
     textElements.forEach((el, i) => {
         if (i === index) {
-            el.classList.add('highlight-glow');
+            el.classList.add('tts-highlight');
         } else {
-            el.classList.remove('highlight-glow');
+            el.classList.remove('tts-highlight');
         }
     });
 }
 
 function removeHighlight() {
-    textElements.forEach(el => el.classList.remove('highlight-glow'));
+    textElements.forEach(el => el.classList.remove('tts-highlight'));
 }
 
 function togglePlayPause() {
@@ -88,9 +88,11 @@ function togglePlayPause() {
 function togglePlayPauseIcon() {
     isPlaying = !isPlaying;
     if (isPlaying) {
-        togglePlayPauseButton.innerHTML = '<i class="fas fa-pause"></i>';
+        togglePlayPauseButton.classList.remove('fa-play');
+        togglePlayPauseButton.classList.add('fa-pause');
     } else {
-        togglePlayPauseButton.innerHTML = '<i class="fas fa-play"></i>';
+        togglePlayPauseButton.classList.remove('fa-pause');
+        togglePlayPauseButton.classList.add('fa-play');
     }
 }
 
