@@ -1,3 +1,1 @@
 <?php
-
-/* Todo: Wildcard aktualisieren */
