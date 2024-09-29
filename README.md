@@ -3,6 +3,8 @@
 Kleines Widget und Fragment-Vorlage zum Vorlesen von Inhalten auf einer Webseite.
 Es nutzt die im Browser zur Verfügung stehenden Stimmen. 
 
+Demo / Arbeitsgrundlage für WIP: https://codepen.io/skibbi/pen/eYaGezm
+
 ## Features
 
 * Datenschutzkonform: Keine Datenübertragung an Dritte
