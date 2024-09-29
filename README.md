@@ -15,9 +15,9 @@ MIT Lizenz, siehe [LICENSE.md](https://github.com/alexplusde/text_to_speech/blob
 
 ## Autoren
 
-**Alexander Walther**  
-<http://www.alexplus.de>  
-<https://github.com/alexplusde>  
+**FriendsOfREDAXO**  
+<https://friendsofredaxo.github.io/>  
+<https://github.com/FriendsOfREDAXO>  
 
 **Projekt-Lead**  
 [Alexander Walther](https://github.com/alexplusde)
