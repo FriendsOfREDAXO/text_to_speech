@@ -13,17 +13,17 @@ Demo / Arbeitsgrundlage für WIP: https://codepen.io/skibbi/pen/eYaGezm
 
 ## Lizenz
 
-MIT Lizenz, siehe [LICENSE.md](https://github.com/alexplusde/text_to_speech/blob/master/LICENSE.md)  
+MIT Lizenz, siehe [LICENSE](https://github.com/FriendsOfREDAXO/text_to_speech/blob/main/LICENSE)
 
-## Autoren
+## Autor
 
 **FriendsOfREDAXO**  
 <https://friendsofredaxo.github.io/>  
 <https://github.com/FriendsOfREDAXO>  
 
+## Credits
+
 **Projekt-Lead**  
 [Alexander Walther](https://github.com/alexplusde)
-
-## Credits
 
 Basiert auf einem kleinen aber feinen Skript von **Thomas Skerbis**
