@@ -22,8 +22,6 @@ MIT Lizenz, siehe [LICENSE](https://github.com/FriendsOfREDAXO/text_to_speech/bl
 <https://github.com/FriendsOfREDAXO>  
 
 ## Credits
-
-**Projekt-Lead**  
 [Alexander Walther](https://github.com/alexplusde)
 
 Basiert auf einem kleinen aber feinen Skript von **Thomas Skerbis**
